@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:prog1/grid.dart';
+import 'package:prog1/strip.dart';
 import 'package:prog1/vertical.dart';
 
 import 'myApp.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: GridApp(),
+      home: Stripe(),
     );
   }
 }
